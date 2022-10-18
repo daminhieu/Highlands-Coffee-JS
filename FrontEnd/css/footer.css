@@ -1,0 +1,56 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+.frames footer{
+    height: 70px;
+    background-color: #53382c;
+   display: flex;
+}
+.frames footer .lhtt{
+    display: flex;
+    line-height: 70px;
+    margin-left: 30px;
+}
+.frames footer .lhtt .highlands{
+    padding-right: 40px;
+    color: white;
+}
+.frames footer .lhtt a{
+    color: white;
+    text-decoration: none;
+}
+.frames footer .lhtt a i{
+    padding-right: 10px;
+}
+.frames footer .lhtt a:hover{
+    color: #f2bc7a;
+}
+.frames footer .lhtt a:first-child{
+    padding-right: 40px;
+}
+.frames footer .mxh{
+    display: flex;
+    margin-left: 250px;
+}
+.frames footer .mxh img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.frames footer .mxh .insta{
+    padding-left: 10px;
+}
+.frames footer .mxh .youtube{
+    padding-left: 10px;
+}
+.frames footer .mxh .face,.insta,.youtube{
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.frames footer .mxh .face:hover{
+    margin-top: 10px;
+}
+.frames footer .mxh .insta:hover{
+    margin-top: 10px;
+}
+.frames footer .mxh .youtube:hover{
+    margin-top: 10px;
+}

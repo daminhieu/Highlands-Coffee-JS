@@ -1,0 +1,136 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+.frames{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.frames header{
+    background-color: #b22830;
+    height: 100px;
+    padding: 10px 100px 0 150px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.frames header .logo img{
+    width: 100px;
+}
+.frames header .search form input{
+    width: 250px;
+    height: 30px;
+    outline: none;
+}
+.frames header .menu-search{
+    margin: 10px 0 0 100px;
+}
+.frames header .search form{
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 30px;
+    margin-left: 600px;
+}
+.frames header .search form button{
+    position: absolute;
+    right: 9px;
+    top: 3px;
+    color: black;
+    background-color:white;
+    border: none;
+}
+.frames header .search{
+    display: flex;
+}
+.frames header .search .flag img{
+    width: 50px;
+    height: 27px;
+    padding:2px 0 0 10px;
+}
+.frames header .search .cart i{
+    padding:6px 0 0 10px;
+    height: 20px;
+    width: 30px;
+    color: white;
+}
+.frames header .search .cart i:hover{
+    color: #53382c;
+}
+.frames header .search .d-block i{
+    padding:6px 0 0 10px;
+    height: 20px;
+    width: 30px;
+    color: white;
+}
+.frames header .search .d-block img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.dropdown{
+    display: flex;
+}
+.frames header .search .d-block i:hover{
+    color: #53382c;
+}
+.frames header .menu-all .menu-1{
+    padding-top: 10px;
+}
+.frames header .menu-all>.menu-1>li{
+    display: inline-block;
+}
+.frames header .menu-all .menu-1 li{
+    position: relative;
+    transition: all 0.5s;
+}
+.frames header .menu-all .menu-1>li>a{
+    padding: 0 30px 0 30px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    font-weight: bold;
+}
+.frames header .menu-all .menu-1 li:hover{
+    background-color: #53382c;
+}
+.frames header .menu-all .menu-1 li .menu-con{
+    background-color: #53382c;
+    position: absolute;
+    z-index: 100;
+    top: 150%;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    left: 0;
+    right: 0;
+    width: 950px;
+    height: 190px;
+}
+.frames header .menu-all .menu-1 li:hover > .menu-con{
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+    padding-top: 20px;
+}
+.frames header .menu-all .menu-1 li .menu-con ul{
+    list-style: none;
+}
+.frames header .menu-all .menu-1 li .menu-con ul li{
+    line-height: 30px;
+    text-align: center;
+}
+.frames header .menu-all .menu-1 li .menu-con ul li a{
+    text-decoration: none;
+    color: white;
+    padding:10px 10px 10px 10px;
+}
+.frames header .menu-all .menu-1 li .menu-con ul li:first-child a{
+    color: yellow;
+    font-weight: bold;
+}
+.frames header .menu-all .menu-1 li .menu-con ul li:hover{
+    background-color: #b22830;
+}
